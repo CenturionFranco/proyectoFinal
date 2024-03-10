@@ -1,0 +1,422 @@
+/* Inicio header */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body{
+    background-image:url(/img/equipos-para-barberias.jpg) ;
+    background-repeat: no-repeat; background-attachment: fixed;
+    background-size: 100% 100%;  
+}
+header{
+    position: sticky;
+    top:0;
+  
+}
+ 
+.color-a{
+    color: rgb(246, 248, 251);
+}
+.nav {
+    padding: auto;
+    margin: auto;
+    height: 100px;
+}
+
+
+
+.logobarber{
+    width: 100px;
+    cursor: pointer;
+    display: flex;
+    top: 0;
+}
+
+ .d-item{
+    height: 500px;
+    
+ }
+
+.d-img{
+    margin-top: 50px;
+    height: 100%; 
+    object-fit: cover;
+    filter: brightness(o.6);
+} 
+
+.nosotros{
+    text-transform: inherit;
+    color: rgb(251, 247, 247);
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+video{
+    width: 650px;
+   
+    left: 500px;
+    display: grid;
+
+}
+
+/* Fin header */
+
+/* contacto */
+.infoContacto{
+    
+    margin: 5px 0;
+    font-size: 1.2rem;
+    background-color: #07061892;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    font-family: var(--fuente);
+    color: white;
+    width: 100%;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+}
+.eslogan{
+    text-align: center;
+}
+
+ul {
+    
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.barber-footer {
+    text-align: left; 
+    padding-left: 1rem; 
+    margin: 0; 
+    color: #484848;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+        
+     }
+     
+     .barber-footer span {
+        transition: .5s linear;
+     }
+     
+     .barber-footer:hover span:nth-child(1){
+        margin-right: 5px;
+     }
+     
+   
+     
+     .barber-footer:hover span:nth-child(2){
+        margin-left: 20px;
+     } 
+     
+     .barber-footer:hover span {
+        color: #fff;
+        text-shadow: 0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #fff
+         ;
+     
+     
+     
+     }
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+a {
+    color: var(--bs-link-color);
+    text-decoration: underline;
+}
+
+.lista-redes {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 1rem;
+    text-decoration: none;
+    list-style-type: none;
+    position: fixed;
+    bottom: 0;
+    margin: 20px;
+    right: 0;
+    height: 0;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+.redes  { 
+    
+    width: 2em;
+    height: auto;
+    padding: 0.2rem;
+}
+
+
+.whastapp {
+    width: 150px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px; 
+}
+
+img, svg {
+    vertical-align: middle;
+}
+
+.facebook {
+    width: 20px;
+} 
+
+
+/* PRODUCTOS */
+
+
+.barber{
+    text-align: center;
+    margin: 10vh;
+    border-bottom: 1px solid black;
+}
+
+.barber h3 {
+    color: #07060e;;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.barber p {
+    background-color: #07052980;
+    font-size: 4rem;
+    color: #8d8888f3;
+    padding: 10px;
+    width: 100%;
+}
+
+.contenedorDestinos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.barber {
+   
+    text-align: center;
+}
+
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(36, 35, 89, 0.455);
+    border: 1px solid #121111;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px; 
+}
+
+.tarjeta img {
+    max-width: 100%;
+
+}
+
+.tarjeta p {
+    margin: 10px 0;
+    color: #69696ffb;
+}
+
+.tarjeta button {
+    background-color: #b8bcb4;
+    color: #100c0cfb;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.tarjeta button:hover {
+    background-color: #625f88;
+}
+
+.productos{
+    background-color: #070529;
+}
+
+
+/* Tendencias */
+
+.tendencia{
+    text-align: center;
+    margin: 10vh;
+    border-bottom: 1px solid black;
+}
+
+.tendencia h3 {
+    color: #07060e;;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.tendencia p {
+    background-color: #07052980;
+    font-size: 4rem;
+    color: #8d8888f3;
+    padding: 10px;
+    width: 100%;
+}
+
+
+.tendencias{
+    height: 350px;
+}
+
+
+.div-1{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.div-2{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+
+}
+.div-3{
+   
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+
+}
+
+.tendencias{
+     color: #07060e;;
+     text-transform: uppercase;
+     font-size: 3rem;
+
+
+}
+@media (max-width:1023px) {
+   
+   
+    /*Productos*/
+
+    .destinos {
+        margin: 5vh;
+        font-size: 2rem;
+    }
+
+    .destinos h3,
+    .destinos p {
+        font-size: inherit;
+    }
+
+    .contenedorCortes {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    
+
+    /*Footer*/
+
+    .footerContenido {
+        flex-direction: column;
+        
+    } 
+}
+
+/*Ajustes específicos para la vista móvil*/
+/* 0 hasta 768px */
+
+ @media (max-width:768px) {
+    /*Productos */
+
+    .contenedorCortes {
+        grid-template-columns: 1fr;
+    }
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fin footer */
